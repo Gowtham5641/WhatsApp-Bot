@@ -1,3 +1,4 @@
+# Essential packages for Puppeteer and headless Chromium
 libgbm-dev
 libatk1.0-0
 libc6
@@ -11,6 +12,7 @@ libgdk-pixbuf2.0-0
 libglib2.0-0
 libgtk-3-0
 libnspr4
+libnss3
 libpango-1.0-0
 libpangocairo-1.0-0
 libstdc++6
@@ -27,11 +29,11 @@ libxrandr2
 libxrender1
 libxss1
 libxtst6
+
+# For SSL and fonts (needed for rendering web pages)
 ca-certificates
 fonts-liberation
-libnss3
-lsb-release
-xdg-utils
+
+# Utility packages
 wget
-chromium
-chromium-browser
+curl
