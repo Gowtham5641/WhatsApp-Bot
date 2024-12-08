@@ -1,3 +1,5 @@
 .env
 node_modules/
-package-lock.json
+.wwebjs_auth/
+.npm/
+pack
