@@ -1,1 +1,1 @@
-web: npm start
+web: bash preinstall.sh && npm start
